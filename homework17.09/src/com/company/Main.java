@@ -6,6 +6,6 @@ public class Main {
         Plant tree = new Tree("для бумаги");
         Plant brush = new Bush("яблоко");
         Plant flower = new Flower(10, true);
-        System.out.print( tree.GetData() + brush.GetData() + flower.GetData());
+        System.out.print( tree.getData() + brush.getData() + flower.getData());
     }
 }

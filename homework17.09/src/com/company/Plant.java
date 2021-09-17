@@ -1,7 +1,7 @@
 package com.company;
 
 public abstract class Plant {
-    public abstract String GetData();
+    public abstract String getData();
 }
 class Tree extends Plant {
     String howUsed;
@@ -10,7 +10,7 @@ class Tree extends Plant {
         this.howUsed = howUsed;
     }
     @Override
-    public String GetData() {
+    public String getData() {
         return "Как используется: " + howUsed + "\n";
     }
 }
@@ -22,7 +22,7 @@ class Bush extends Plant {
         this.typeOfFruit = typeOfFruit;
     }
     @Override
-    public String GetData() {
+    public String getData() {
         return "Тип плода: " + typeOfFruit + "\n";
     }
 }
@@ -36,7 +36,7 @@ class Flower extends Plant {
         this.hasSmell = hasSmell;
     }
     @Override
-    public String GetData() {
+    public String getData() {
         return "Продолжительность жизни = " + Integer.toString(lifeExpectancy) +
                 ", имеет ли запах: " + Boolean.toString(hasSmell);
     }
