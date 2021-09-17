@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="259451c4-a8b6-4f00-a888-67fad8b223ac" name="Changes" comment="lol">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework17.09/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework17.09/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lol" />
